@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean name="post" class="com.spring.core.bean.Post">
+
+		<property name="post_type" value="video Quotation"></property>
+		<property name="posted_by" value="Stu Child"></property>
+		<property name="posted_from" value="Desktop"></property>
+
+	</bean>
+
+
+
+
+
+
+</beans>
