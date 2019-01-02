@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean name="mobile" abstract="true">
+		<property name="manufacturedBy" value="Chaina"></property>
+	</bean>
+
+	<bean name="iphone7" class="com.nsksoft.domain.Mobile" parent="mobile">
+		<property name="mobileName" value="Iphone 7"></property>
+		<property name="operatingSystem" value="IOS 11"></property>
+		<property name="price" value="56000"></property>
+	</bean>
+	<bean name="Samsung Note5" class="com.nsksoft.domain.Mobile" parent="mobile">
+		<property name="mobileName" value="Samsung Note5"></property>
+		<property name="operatingSystem" value="Andriod JelleyBean"></property>
+		<property name="price" value="45000"></property>
+	</bean>
+
+</beans>
