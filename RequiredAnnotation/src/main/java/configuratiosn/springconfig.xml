@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean name="clothes" class="com.nsksoft.domain.Clothes">
+
+		<property name="typesOfCloth" value="Shirt"></property>
+		<property name="madeBy" value="CK"></property>
+		<property name="size" value="large"></property>
+		<property name="price" value="5000"></property>
+
+	</bean>
+
+
+
+</beans>
